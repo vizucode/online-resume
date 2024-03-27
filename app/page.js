@@ -1,6 +1,7 @@
 import { PhoneCall, EnvelopeSimple, GithubLogo, LinkedinLogo } from "@phosphor-icons/react/dist/ssr";
 import HeaderItems from "./components/HeaderItems";
 import ListSkill from "./components/ListSkill";
+import ListProject from "./components/ListProject";
 
 export default function Home() {
 
@@ -44,6 +45,20 @@ export default function Home() {
     },
   ]
 
+  const Projects = [
+    {
+      index: "Rozhok (public service app)",
+      value: "Rozhok is a platform, which facilitates waste collectors and the public to make it easier to distribute their waste, as well as a shop feature to buy processed waste products, this project is using Golang and Echo Framework deployed on AWS cloud, more details can be seen at Github.",
+      link: "https://github.com/capstone-rozhok-app/backend"
+    },
+    {
+      index: "Open Funding",
+      value: "Open-Funding is a service that aims to fund projects ranging from individual and community scale and large, this service is built with Golang, Postgres docker and AWS and integrated with Xendit., which you can see on Github.",
+      link: "https://github.com/romodeus/open-funding"
+    }
+  ]
+
+
   return (
     <main className="p-5 lg:p-14">
       {/* Header */}
@@ -74,8 +89,8 @@ export default function Home() {
       <section>
         <p className="font-main text-xl font-medium text-black mt-10 mb-5 uppercase">Projects</p>
         {
-          SkillSet.map((item, index) => (
-            <ListSkill key={index} index={item.index} value={item.value} />
+          Projects.map((item, index) => (
+            <ListProject key={index} index={item.index} value={item.value} link={item.link} />
           ))
         }
       </section>
