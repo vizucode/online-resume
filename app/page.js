@@ -3,6 +3,7 @@ import HeaderItems from "./components/HeaderItems";
 import ListSkill from "./components/ListSkill";
 import ListProject from "./components/ListProject";
 import ListWork from "./components/ListWork";
+import ListCertificate from "./components/ListCertificate";
 
 export default function Home() {
 
@@ -89,6 +90,24 @@ export default function Home() {
     }
   ]
 
+  const certificates = [
+    {
+      index_certificate: "Certificate Of Competence",
+      value_certificate: "Software Engineering",
+      issued_by: "Issued by BNSP Mei 2022",
+      link_certificate: "https://drive.google.com/file/d/1OmOk5yVPzcYbS6YUY_ffEtz2dgm11n4A/view"
+    }
+  ]
+
+  const achivements = [
+    {
+      index_certificate: "NITC",
+      value_certificate: "Silver Medal National IT Competition",
+      issued_by: "issued by UM Faculty of Engineering Oct 2022",
+      link_certificate: "https://drive.google.com/file/d/1OvZqKT3k5r_IPf7FSgXBeQuysyEahos1/view"
+    }
+  ]
+
 
   return (
     <main className="p-5 lg:p-14">
@@ -140,6 +159,33 @@ export default function Home() {
         {
           Educations.map((item, index) => (
             <ListWork key={index} workAt={item.work_at} LinkWorkAt={item.link_work_at} WorkDate={item.work_date} Position={item.position} JobDeskList={item.job_desk_list} />
+          ))
+        }
+      </section>
+      {/* Certification */}
+      <section>
+        <p className="font-main text-xl font-medium text-black mt-10 mb-5 uppercase">Certification</p>
+        {
+          certificates.map((item, index) => (
+            <ListCertificate key={index} indexCertificate={item.index_certificate} valueCertificate={item.value_certificate} IssuedBy={item.issued_by} LinkCertificate={item.link_certificate} />
+          ))
+        }
+      </section>
+      {/* Achivements */}
+      <section>
+        <p className="font-main text-xl font-medium text-black mt-10 mb-5 uppercase">Achivements</p>
+        {
+          achivements.map((item, index) => (
+            <ListCertificate key={index} indexCertificate={item.index_certificate} valueCertificate={item.value_certificate} IssuedBy={item.issued_by} LinkCertificate={item.link_certificate} />
+          ))
+        }
+      </section>
+      {/* Proficiency Languange */}
+      <section>
+        <p className="font-main text-xl font-medium text-black mt-10 mb-5 uppercase">Proficiency Languange</p>
+        {
+          achivements.map((item, index) => (
+            <ListCertificate key={index} indexCertificate={item.index_certificate} valueCertificate={item.value_certificate} IssuedBy={item.issued_by} LinkCertificate={item.link_certificate} />
           ))
         }
       </section>
