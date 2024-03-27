@@ -2,6 +2,7 @@ import { PhoneCall, EnvelopeSimple, GithubLogo, LinkedinLogo } from "@phosphor-i
 import HeaderItems from "./components/HeaderItems";
 import ListSkill from "./components/ListSkill";
 import ListProject from "./components/ListProject";
+import ListWork from "./components/ListWork";
 
 export default function Home() {
 
@@ -58,6 +59,21 @@ export default function Home() {
     }
   ]
 
+  const WorkExperieces = [
+    {
+      work_at: "Alterra Academy",
+      link_work_at: "https://www.alterra.ac.id/",
+      work_date: "Dec 2022 - Present",
+      description: "Lorem ipsum",
+      job_desk_list: [
+        {
+          index: "Backend Engineer",
+          value: "Lorem ipsum"
+        }
+      ]
+    }
+  ]
+
 
   return (
     <main className="p-5 lg:p-14">
@@ -91,6 +107,15 @@ export default function Home() {
         {
           Projects.map((item, index) => (
             <ListProject key={index} index={item.index} value={item.value} link={item.link} />
+          ))
+        }
+      </section>
+      {/* Work Experience */}
+      <section>
+        <p className="font-main text-xl font-medium text-black mt-10 mb-5 uppercase">Work Experiences</p>
+        {
+          WorkExperieces.map((item, index) => (
+            <ListWork key={index} workAt={item.work_at} LinkWorkAt={item.link_work_at} WorkDate={item.work_date} Description={item.description} JobDeskList={item.job_desk_list} />
           ))
         }
       </section>
