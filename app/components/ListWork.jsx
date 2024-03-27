@@ -2,7 +2,7 @@
 import Link from "next/link"
 
 
-const ListWork = ({ workAt, LinkWorkAt, WorkDate, Description, JobDeskList }) => {
+const ListWork = ({ workAt, LinkWorkAt, WorkDate, Position, JobDeskList }) => {
 
     return (
         <>
@@ -17,7 +17,7 @@ const ListWork = ({ workAt, LinkWorkAt, WorkDate, Description, JobDeskList }) =>
                 <p className="font-main font-semibold text-black text-sm">{WorkDate}</p>
             </div>
             <div>
-                <p className="font-main text-sm text-black">{Description}</p>
+                <p className="font-main text-sm text-black">{Position}</p>
             </div>
             <ul className="list-disc pl-10 mt-5">
                 {

@@ -6,7 +6,7 @@ const ListSkill = ({index, value}) => {
         <>
             <ul className="list-disc pl-10 my-2">
                 <li className="font-main text-black text-sm">
-                    <span className="font-semibold">{index}:</span>
+                    <span className="font-semibold">{index}: </span>
                     {value}
                 </li>
             </ul>

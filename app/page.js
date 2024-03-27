@@ -61,14 +61,29 @@ export default function Home() {
 
   const WorkExperieces = [
     {
-      work_at: "Alterra Academy",
-      link_work_at: "https://www.alterra.ac.id/",
-      work_date: "Dec 2022 - Present",
-      description: "Lorem ipsum",
+      work_at: "Halte Creative",
+      link_work_at: "",
+      work_date: "2020 - March 2022",
+      position: "Fullstack Developer East Java, Tulungagung",
       job_desk_list: [
         {
-          index: "Backend Engineer",
-          value: "Lorem ipsum"
+          index: "Slicing UI",
+          value: " Slicing from UI design to the mobile application and integrating the system to the backend with REST API build with React Native. "
+        }
+      ]
+    }
+  ]
+
+  const Educations = [
+    {
+      work_at: "ALTERRA ACADEMY",
+      link_work_at: "https://www.alterra.ac.id/",
+      work_date: "August 2022 - October 2022",
+      position: "Immersive Program, Backend Engineering Online",
+      job_desk_list: [
+        {
+          index: "Tech Course:",
+          value: "Pair Programming, Algorithm and data structure, Git, Github, TBD, MySQL, REST API, Test Driven Development, Deployment, AWS, Docker, Docker Compose, Golang, Echo, Gorm."
         }
       ]
     }
@@ -115,7 +130,16 @@ export default function Home() {
         <p className="font-main text-xl font-medium text-black mt-10 mb-5 uppercase">Work Experiences</p>
         {
           WorkExperieces.map((item, index) => (
-            <ListWork key={index} workAt={item.work_at} LinkWorkAt={item.link_work_at} WorkDate={item.work_date} Description={item.description} JobDeskList={item.job_desk_list} />
+            <ListWork key={index} workAt={item.work_at} LinkWorkAt={item.link_work_at} WorkDate={item.work_date} Position={item.position} JobDeskList={item.job_desk_list} />
+          ))
+        }
+      </section>
+      {/* Education */}
+      <section>
+        <p className="font-main text-xl font-medium text-black mt-10 mb-5 uppercase">Education</p>
+        {
+          Educations.map((item, index) => (
+            <ListWork key={index} workAt={item.work_at} LinkWorkAt={item.link_work_at} WorkDate={item.work_date} Position={item.position} JobDeskList={item.job_desk_list} />
           ))
         }
       </section>
