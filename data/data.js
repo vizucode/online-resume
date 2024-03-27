@@ -1,3 +1,4 @@
+import { EnvelopeSimple, GithubLogo, LinkedinLogo, PhoneCall } from "@phosphor-icons/react/dist/ssr";
 
 export const fullname = "Mitsuha Nguyen"
 export const role = "(Backend Engineer)"
@@ -28,18 +29,18 @@ export const headerItem = [
 export const summary = "I have one year of experience in Software Engineering and managed to make software for pharmacy sales. I graduated from an intensive Bootcamp program at Alterra Academy as a Backend Engineer to deepen my knowledge in the field of Backend Engineer, especially in Golang, I create a public service application platform using Golang, and I am developing features such as (login, garbage sales, and purchasing goods) and integrated with Midtrans third-party services for payment interfaces, I hope to be a software engineer who is constantly updated with technology."
 
 export const SkillSet = [
-    {
-        index: "Programming Languanges",
-        value: "Go, Javascript, Typescript",
-    },
-    {
-        index: "Technologies",
-        value: "Echo, Gin, Laravel, MySQL, Postgres, S3 Bucket, AWS EC2, Cloudflare, Docker, Docker Compose, Github, Gorm, REST API, Redis",
-    },
-    {
-        index: "Other",
-        value: "Implementing CI/CD, Microservices, Agile Scrum.",
-    },
+    // {
+    //     index: "Programming Languanges",
+    //     value: "Go, Javascript, Typescript",
+    // },
+    // {
+    //     index: "Technologies",
+    //     value: "Echo, Gin, Laravel, MySQL, Postgres, S3 Bucket, AWS EC2, Cloudflare, Docker, Docker Compose, Github, Gorm, REST API, Redis",
+    // },
+    // {
+    //     index: "Other",
+    //     value: "Implementing CI/CD, Microservices, Agile Scrum.",
+    // },
 ]
 
 export const Projects = [
