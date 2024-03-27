@@ -4,6 +4,7 @@ import ListSkill from "./components/ListSkill";
 import ListProject from "./components/ListProject";
 import ListWork from "./components/ListWork";
 import ListCertificate from "./components/ListCertificate";
+import Languange from "./components/Languange";
 
 export default function Home() {
 
@@ -108,6 +109,13 @@ export default function Home() {
     }
   ]
 
+  const languages = [
+    {
+      value: "English (Native)",
+      link_languange: ""
+    }
+  ]
+
 
   return (
     <main className="p-5 lg:p-14">
@@ -184,8 +192,8 @@ export default function Home() {
       <section>
         <p className="font-main text-xl font-medium text-black mt-10 mb-5 uppercase">Proficiency Languange</p>
         {
-          achivements.map((item, index) => (
-            <ListCertificate key={index} indexCertificate={item.index_certificate} valueCertificate={item.value_certificate} IssuedBy={item.issued_by} LinkCertificate={item.link_certificate} />
+          languages.map((item, index) => (
+            <Languange key={index} LinkLanguange={item.link_languange} value={item.value} />
           ))
         }
       </section>

@@ -16,7 +16,7 @@ const ListCertificate = ({ indexCertificate, valueCertificate, IssuedBy, LinkCer
                                     <span className="ml-1 underline">({IssuedBy})</span>
                                 </Link>
                             ) : (
-                                <span className="ml-1 underline">({IssuedBy})</span>
+                                <span className="ml-1">({IssuedBy})</span>
                             )
                         }
                     </span>
