@@ -7,11 +7,16 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      fontFamily: {
+        main: ["var(--font-poppins)", "sans-serif"],
+        secondary: ["var(--font-fira-code)", "sans-serif"],
+        dm: ["DM Sans", "sans-serif"],
       },
+      colors: {
+        main: {
+          darken: "#545454",
+        }
+      }
     },
   },
   plugins: [],
