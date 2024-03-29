@@ -2,8 +2,8 @@ import "./globals.css";
 import { FiraCodeFont, PoppinsFont } from "@/libs/fonts/fonts";
 
 export const metadata = {
-  title: "Mitsuha Nguyen | CV",
-  description: "Mitsuha Nguyen | CV",
+  title: "Hafiz Iqbal Sahrunizar | CV",
+  description: "Hafiz Iqbal Sahrunizar | CV",
 };
 
 export default function RootLayout({ children }) {

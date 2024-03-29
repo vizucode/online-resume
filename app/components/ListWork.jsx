@@ -6,12 +6,12 @@ const ListWork = ({ workAt, LinkWorkAt, WorkDate, Position, JobDeskList }) => {
 
     return (
         <>
-            <div className="flex w-full justify-between">
+            <div className="mt-5 flex w-full justify-between items-center">
                 {
                     LinkWorkAt != "" ? (
-                        <Link className="hover:text-blue-500 font-main font-semibold text-black text-sm" href={LinkWorkAt}>{workAt}</Link>
+                        <Link className="hover:text-blue-500 font-main font-semibold text-black text-md" href={LinkWorkAt}>{workAt}</Link>
                     ) : (
-                        <p className="font-main font-semibold text-black text-sm">{workAt}</p>
+                        <p className="font-main font-semibold text-black text-md">{workAt}</p>
                     )
                 }
                 <p className="font-main font-semibold text-black text-sm">{WorkDate}</p>
