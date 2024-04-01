@@ -69,7 +69,7 @@ export const WorkExperieces = [
             },
             {
                 index: "Maintaing Product Histore.id",
-                value: "I'm actively developing and maintaing Histore.id, creating integration with products providers and payment gatway also payment gateway"
+                value: "I lead the tech side of Histore.id, focusing on making it better and more user-friendly. My job includes adding new products by connecting with more suppliers and setting up safe and easy payment options. This work helps our users find what they need quickly and buy it safely, making Histore.id a go-to online marketplace. I'm all about improving our site, keeping it up-to-date, and ensuring our users have a great experience"
             }
         ]
     },
