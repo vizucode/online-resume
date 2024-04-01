@@ -93,7 +93,7 @@ export const WorkExperieces = [
         job_desk_list: [
             {
                 index: "Slicing UI",
-                value: "Slicing from UI design to the mobile application and integrating the system to the backend with REST API build with React Native. "
+                value: "I handle turning UI designs into fully functioning features on mobile apps, making sure everything works smoothly by connecting the app with the backend through REST APIs. I use React Native for development, ensuring that the app is responsive, fast, and reliable for users on different devices. My work involves bringing designs to live, making the app easy to use, and ensuring that all parts communicate well with each other for a seamless user experience."
             }
         ]
     },
@@ -105,7 +105,7 @@ export const WorkExperieces = [
         job_desk_list: [
             {
                 index: "Developement",
-                value: "Fixing bugs on the Geographic Information System (GIS) project for an internal company and assembling a GPS tracking tool using Gravity GF07."
+                value: "I`m tasked with identifying and resolving issues in our internal Geographic Information System (GIS) project, enhancing its reliability and performance. Alongside this, I`m developing a GPS tracking tool utilizing the Gravity GF07, ensuring precise and efficient tracking capabilities for our company. This dual role involves troubleshooting to keep our GIS project running smoothly and harnessing the latest technology to build a robust tracking system, thereby optimizing our operational efficiency and data accuracy."
             }
         ]
     }
