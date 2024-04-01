@@ -170,7 +170,11 @@ export const achivements = [
 
 export const languages = [
     {
-        value: "English (Native)",
+        value: "Bahasa (Native)",
+        link_languange: ""
+    },
+    {
+        value: "English (Work Proficiency)",
         link_languange: ""
     }
 ]
