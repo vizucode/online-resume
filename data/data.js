@@ -81,7 +81,7 @@ export const WorkExperieces = [
         job_desk_list: [
             {
                 index: "Maintaing Loyalty Program AXISnet",
-                value: "I'm actively developing and maintaing loyalty program for AXISnet, for example: Alifetime Program and Mystery Box, with aim to provide the best experience for the users. "
+                value: "I'm the driving force behind AXISnet's loyalty program, focusing on creating and updating key features like the Alifetime Program and Mystery Box. My goal is to make sure our users have the best experience possible. This involves designing rewards and surprises that make our users feel valued and keep them engaged with our services. I'm constantly working on making our loyalty program more enjoyable and beneficial, ensuring it not only rewards users but also enhances their overall experience with AXISnet."
             }
         ]
     },
@@ -93,7 +93,7 @@ export const WorkExperieces = [
         job_desk_list: [
             {
                 index: "Slicing UI",
-                value: " Slicing from UI design to the mobile application and integrating the system to the backend with REST API build with React Native. "
+                value: "Slicing from UI design to the mobile application and integrating the system to the backend with REST API build with React Native. "
             }
         ]
     },
