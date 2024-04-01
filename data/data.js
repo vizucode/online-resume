@@ -132,7 +132,7 @@ export const Educations = [
         job_desk_list: [
             {
                 index: "Final Assesment Project",
-                value: "I'm creating full stack reservation hotel project for SMKN 1 Boyolangu Final Assesment"
+                value: "I'm working on a comprehensive full-stack hotel reservation project, designed as the final assessment for SMKN 1 Boyolangu. This involves developing both the front-end and back-end components, ensuring a seamless and user-friendly booking experience. From designing the user interface to implementing the database for managing reservations, my project aims to cover all aspects of hotel booking. "
             }
         ]
     }
