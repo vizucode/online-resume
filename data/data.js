@@ -65,7 +65,7 @@ export const WorkExperieces = [
         job_desk_list: [
             {
                 index: "Maintaing Product Whatsblast",
-                value: "I'm actively developing and maintaing Whatsblast, create integration with Whatsapp and manage buisness model."
+                value: "I'm in charge of Whatsblast, focusing on its development and upkeep. My role involves integrating it with WhatsApp and shaping our business model. This means making sure Whatsblast works seamlessly with WhatsApp for better communication and managing how our business runs to serve our users well. I'm all about improving Whatsblast, keeping it up-to-date with WhatsApp's changes, and ensuring it meets our users' needs in running their businesses effectively."
             },
             {
                 index: "Maintaing Product Histore.id",
