@@ -149,7 +149,7 @@ export const certificates = [
         index_certificate: "Golang Concurency",
         value_certificate: "Irvine Division of Continuing Education Coursera",
         issued_by: "Issued by University of California Mei 2022",
-        link_certificate: "https://coursera.org/share/e506f4fc42a85e8854f4485ef392b0d1"
+        link_certificate: "https://www.coursera.org/account/accomplishments/records/PS3LBS9U9E8B"
     },
     {
         index_certificate: "HackerRank Golang",
