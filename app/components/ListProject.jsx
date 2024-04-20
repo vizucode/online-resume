@@ -10,7 +10,7 @@ const ListProject = ({index, value, link}) => {
                     <span className="font-semibold">
                         {
                             link != "" ? (
-                                <Link className="hover:text-blue-500" href={link}>{index}:</Link>
+                                <Link className="text-blue-500" href={link}>{index}:</Link>
                             ) : 
                             (
                                 <span>{index}:</span>
